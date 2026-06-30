@@ -1,0 +1,42 @@
+# ---- Data (never commit real / restricted patient data) ----
+data/
+weights/
+*.nii
+*.nii.gz
+*.dcm
+
+# Generated caches and outputs
+*.pkl
+cache_*.pkl
+publication_outputs/
+toy_outputs/
+trained_models/
+*.pth
+
+# Allow the synthetic toy dataset to be committed if you want it in the repo:
+# (comment the next line out to INCLUDE toy_data/ in git)
+toy_data/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
